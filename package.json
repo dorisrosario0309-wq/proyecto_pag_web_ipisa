@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/dorisrosario0309-wq/proyecto_pag_web_ipisa#readme",
   "dependencies": {
+    "bootstrap": "^5.3.8",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "hbs": "^4.2.1",

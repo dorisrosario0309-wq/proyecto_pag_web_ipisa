@@ -5,6 +5,10 @@ const app = express();
 
 // Configurar Handlebars
 app.set('view engine', 'hbs');
+app.use('/css', express.static(path.join(__dirname, '../node_modules/bootstrap/dist/css')));
+app.use('/js', express.static(path.join(__dirname, '../node_modules/bootstrap/dist/js')));
+
+
 
 // Ruta principal
 app.get('/', async (req, res) => {
