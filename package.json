@@ -1,0 +1,32 @@
+{
+  "name": "proyecto_pag_web_ipisa",
+  "version": "1.0.0",
+  "description": "En este espacio vamos a añadir todo el contenido de nuestro proyecto con todas las tecnologias y librerias integradas.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorisrosario0309-wq/proyecto_pag_web_ipisa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dorisrosario0309-wq/proyecto_pag_web_ipisa/issues"
+  },
+  "homepage": "https://github.com/dorisrosario0309-wq/proyecto_pag_web_ipisa#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "hbs": "^4.2.1",
+    "mysql2": "^3.22.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
