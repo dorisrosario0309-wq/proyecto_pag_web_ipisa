@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #ff8500;">
+    <div class="container">
+        <a class="navbar-brand" href="/">
+            <img src="/img/logo.png" alt="Bellon" height="40">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto fw-bold">
+                <li class="nav-item"><a class="nav-link {{isActive pagina 'inicio'}}" href="/">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link {{isActive pagina 'sucursales'}}" href="/sucursales">Sucursales</a></li>
+                <li class="nav-item"><a class="nav-link {{isActive pagina 'contacto'}}" href="/contacto">Contactos</a></li>
+                <li class="nav-item"><a class="nav-link {{isActive pagina 'nosotros'}}" href="/nosotros">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link {{isActive pagina 'login'}}" href="/login">Login</a></li>
+                <li class="nav-item"><a class="nav-link {{isActive pagina 'vip'}} border border-white rounded px-2" href="/vip">Bellon VIP</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
