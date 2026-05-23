@@ -11,10 +11,34 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto fw-bold">
                 <li class="nav-item"><a class="nav-link {{isActive pagina 'inicio'}}" href="/">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link {{isActive pagina 'sucursales'}}" href="/sucursales">Sucursales</a></li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle {{isActive pagina 'sucursales'}}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Sucursales
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/sucursales/bani">Bani</a></li>
+                        <li><a class="dropdown-item" href="/sucursales/la-romana">La Romana</a></li>
+                        <li><a class="dropdown-item" href="/sucursales/mao">Mao</a></li>
+                        <li><a class="dropdown-item" href="/sucursales/punta-cana">Punta Cana</a></li>
+                        
+                        <li><hr class="dropdown-divider"></li>
+                        <li class="dropdown-header fw-bold text-dark">Santiago</li>
+                        <li><a class="dropdown-item" href="/sucursales/santiago/bartolome-colon">» Bartolome Colon</a></li>
+                        <li><a class="dropdown-item" href="/sucursales/santiago/espana">» España</a></li>
+                        <li><a class="dropdown-item" href="/sucursales/santiago/imbert">» Imbert</a></li>
+                        <li><a class="dropdown-item" href="/sucursales/santiago/pontezuela">» Pontezuela</a></li>
+                        
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="/sucursales/san-francisco">San Francisco de Macoris</a></li>
+                        <li><a class="dropdown-item" href="/sucursales/santo-domingo-oeste">Santo Domingo Oeste</a></li>
+                    </ul>
+                </li>
+
                 <li class="nav-item"><a class="nav-link {{isActive pagina 'contacto'}}" href="/contacto">Contactos</a></li>
                 <li class="nav-item"><a class="nav-link {{isActive pagina 'nosotros'}}" href="/nosotros">Nosotros</a></li>
-                <li class="nav-item"><a class="nav-link {{isActive pagina 'login'}}" href="/login">Login</a></li>
+                <li class="nav-item"><a class="nav-link {{isActive pagina 'login'}}" href="/login">Iniciar Sesión</a></li>
+                <!--<li class="nav-item"><a class="nav-link {{isActive pagina 'register'}}" href="/register">Register</a></li>-->
                 <li class="nav-item"><a class="nav-link {{isActive pagina 'vip'}} border border-white rounded px-2" href="/vip">Bellon VIP</a></li>
             </ul>
         </div>

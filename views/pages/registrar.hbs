@@ -1,0 +1,57 @@
+{{#block "styles"}}
+    <link rel="stylesheet" href="/css/registrar.css">
+{{/block}}
+
+<div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center p-4 p-md-5 bg-white order-2 order-md-1">
+    <div class="form-wrapper">
+        <h2 class="text-center fw-bold mb-4 form-title-custom">Crea Una Cuenta</h2>
+        
+        <form action="/registrar" method="POST">
+            <div class="mb-3">
+                <input type="text" class="form-control rounded-pill p-3 custom-input" placeholder="Nombre" name="nombre" required>
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control rounded-pill p-3 custom-input" placeholder="Teléfono" name="telefono" required>
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control rounded-pill p-3 custom-input" placeholder="Correo" name="correo" required>
+            </div>
+
+            <div class="mb-3 position-relative container-password">
+                <input type="password" id="password" class="form-control rounded-pill p-3 custom-input input-password-clean" 
+                    placeholder="Contraseña (mín. 8 caracteres)" name="password" 
+                    minlength="8" required>
+                
+                <button type="button" id="togglePassword" class="btn-toggle-eye">
+                    <i class="fas fa-eye-slash" id="eyeIcon"></i>
+                </button>
+            </div>
+
+            <div class="mb-3">
+                <select class="form-select rounded-pill p-3 custom-input" name="direccion" required>
+                    <option value="" disabled selected>dirección</option>
+                    <option value="bani">Bani</option>
+                    <option value="la-romana">La Romana</option>
+                    <option value="mao">Mao</option>
+                    <option value="punta-cana">Punta Cana</option>
+                    <optgroup label="Santiago">
+                        <option value="bartolome-colon">Bartolome Colon</option>
+                        <option value="espana">España</option>
+                        <option value="imbert">Imbert</option>
+                        <option value="pontezuela">Pontezuela</option>
+                    </optgroup>
+                    <option value="san-francisco">San Francisco de Macorís</option>
+                    <option value="santo-domingo-oeste">Santo Domingo Oeste</option>
+                </select>
+            </div>
+            
+            <button type="submit" class="btn w-100 rounded-pill py-3 fw-bold text-white shadow btn-register-custom">
+                Registrarse
+            </button>
+        </form>
+        
+        <div class="text-center mt-4">
+            <a href="/login" class="text-info text-decoration-none small fw-medium">¿Tiene una cuenta? Pulse aquí</a>
+        </div>
+    </div>
+</div>

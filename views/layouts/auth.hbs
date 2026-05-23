@@ -1,0 +1,35 @@
+<!-- views/pages/login.hbs -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autenticación</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/fontawesome/css/all.min.css">
+    {{{extend "styles" this}}}
+</head>
+<body>
+    <div class="container-fluid p-0">
+        <div class="row g-0 min-vh-100 flex-column flex-md-row">
+            
+            <div class="col-12 col-md-6 d-flex align-items-center justify-content-center right-side-bg py-5 order-1 order-md-2">
+                <div class="text-end p-3 container-logo-responsive">
+                    <div class="bg-white p-4 rounded-4 shadow-lg mb-2 container-img-white">
+                        <a href="/" class="d-block">
+                            <img src="/img/logo.png" alt="Bellon Logo" class="img-fluid">
+                        </a>
+                    </div>
+                    <p class="fst-italic text-white fw-medium slogan-text">
+                        Encuentras más de lo que buscas
+                    </p>
+                </div>
+            </div>
+            {{{body}}}
+
+        </div>
+    </div>
+    <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/auth.js"></script>
+</body>
+</html>
