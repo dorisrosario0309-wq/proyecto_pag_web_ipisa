@@ -1,14 +1,16 @@
 const express = require('express');
 const router = express.Router();
-const db = require('../db'); // Tu conexión a MySQL
+const db = require('../db');
 
 // Ruta GET: Mostrar el formulario
 router.get('/', (req, res) => {
-    res.render('pages/login');
+    res.render('pages/login', { 
+        layout: 'layouts/auth'
+    });
 });
 
 // Ruta POST: Procesar los datos
-router.post('/', async (req, res) => {
+router.post('/auth', async (req, res) => {
     const { email, password } = req.body;
 
     try {
