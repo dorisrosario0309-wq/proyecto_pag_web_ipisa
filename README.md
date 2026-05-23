@@ -53,6 +53,8 @@ DB_USER=root
 API_KEY=tu_clave_secreta_aqui
 
 Capturas de Pantalla: Evidencia de la base de datos MySQL y la interfaz. 
+
+Interfaz
 <img width="842" height="477" alt="image" src="https://github.com/user-attachments/assets/35be174a-11b1-40ae-a19e-f5ba8ae7c827" />
 <img width="846" height="480" alt="image" src="https://github.com/user-attachments/assets/fd304fe4-9aab-483e-bb38-06b96ecd2118" />
 <img width="280" height="527" alt="image" src="https://github.com/user-attachments/assets/6ef12450-7ca8-4cd7-9452-88c8dec7bf44" />
@@ -72,6 +74,14 @@ Capturas de Pantalla: Evidencia de la base de datos MySQL y la interfaz.
 <img width="265" height="457" alt="image" src="https://github.com/user-attachments/assets/2fc0962f-996b-4220-8a72-67eaa2755586" />
 <img width="265" height="421" alt="image" src="https://github.com/user-attachments/assets/ca513078-c308-4095-8f46-28e17d35c3be" />
 <img width="292" height="547" alt="image" src="https://github.com/user-attachments/assets/6640d499-1f69-4a22-9d99-20f0480837f6" />
+
+Evidencia de la base de datos MySQL: La base de datos se desarrollo en MYSQL y se tomaron capturas de pantalla de evidencia.
+<img width="923" height="838" alt="image" src="https://github.com/user-attachments/assets/180357d0-1de8-4f15-83ed-d35418493d8c" />
+<img width="913" height="978" alt="image" src="https://github.com/user-attachments/assets/29680a98-8c3d-4197-b291-cfce81cc2dcd" />
+<img width="915" height="751" alt="image" src="https://github.com/user-attachments/assets/5f77593a-d75e-458c-af19-9ecfe5cd7b8c" />
+<img width="890" height="996" alt="image" src="https://github.com/user-attachments/assets/9b926aef-d9a1-4c8f-a922-b3a034673052" />
+<img width="916" height="946" alt="image" src="https://github.com/user-attachments/assets/57601194-42db-4f7a-b621-0a8ff9e38ab3" />
+<img width="928" height="206" alt="image" src="https://github.com/user-attachments/assets/cb137324-53e7-4197-9fdb-b598c20bb07c" />
 
 
 
