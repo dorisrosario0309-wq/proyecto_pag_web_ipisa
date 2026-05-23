@@ -14,6 +14,7 @@ JavaScript (Vanilla JS): Se emplea para implementar la capa de interactividad de
 Arquitectura MVC (Modelo-Vista-Controlador): La estructura del proyecto sigue este patrón de diseño para separar la lógica de datos (Modelos), la presentación visual (Vistas/HBS) y el flujo de control (Controladores/Rutas), lo cual facilita la escalabilidad del sistema a medida que se añaden nuevas funcionalidades o sucursales.
 
 Versiones de Node.js, Express, etc.: 
+
 <img width="281" height="393" alt="image" src="https://github.com/user-attachments/assets/bccce0fc-0ea9-4dec-8677-3a609e7c48d2" />
 
 Instalación: Pasos para clonar y ejecutar en local (npm install, npm start): Clonar el repositorio:
