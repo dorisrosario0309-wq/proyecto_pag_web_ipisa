@@ -10,7 +10,7 @@ body {
 
 /* --- Lado de la Imagen --- */
 .right-side-bg {
-    background-image: url('/public/img/ta.jpeg');
+    background-image: url('/img/ta.jpeg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -135,4 +135,24 @@ select.custom-input {
     .container-logo-responsive .text-end {
         text-align: center !important;
     }
+}
+
+.container-password {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-password-clean {
+    padding-right: 40px !important;
+}
+
+.btn-toggle-eye {
+    position: absolute;
+    right: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #6c757d;
+    z-index: 10;
 }

@@ -10,7 +10,7 @@ body {
 
 /* --- Lado de la Imagen --- */
 .right-side-bg {
-    background-image: url('/public/img/ta.jpeg');
+    background-image: url('/img/ta.jpeg');
     background-size: cover;
     background-position: center;
     position: relative;
