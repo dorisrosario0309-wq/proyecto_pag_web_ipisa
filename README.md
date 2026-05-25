@@ -75,7 +75,12 @@ Interfaz
 <img width="278" height="442" alt="image" src="https://github.com/user-attachments/assets/7606041b-214a-4443-8656-36fffe3d4fdd" />
 <img width="265" height="457" alt="image" src="https://github.com/user-attachments/assets/2fc0962f-996b-4220-8a72-67eaa2755586" />
 <img width="265" height="421" alt="image" src="https://github.com/user-attachments/assets/ca513078-c308-4095-8f46-28e17d35c3be" />
-<img width="292" height="547" alt="image" src="https://github.com/user-attachments/assets/6640d499-1f69-4a22-9d99-20f0480837f6" />
+<img width="492" height="681" alt="image" src="https://github.com/user-attachments/assets/02390f74-05e6-44be-89cc-45ec13fe6e2c" />
+<img width="448" height="665" alt="image" src="https://github.com/user-attachments/assets/89e37463-885b-434a-b0ec-f7ca7b97307b" />
+<img width="440" height="667" alt="image" src="https://github.com/user-attachments/assets/f10751b7-72cf-4412-bbd8-cdc0f0b0de84" />
+<img width="433" height="761" alt="image" src="https://github.com/user-attachments/assets/4b92c509-a88c-44ae-b880-40d6dcc26db9" />
+
+
 
 Evidencia de la base de datos MySQL: La base de datos se desarrollo en MYSQL y se tomaron capturas de pantalla de evidencia.
 <img width="923" height="838" alt="image" src="https://github.com/user-attachments/assets/180357d0-1de8-4f15-83ed-d35418493d8c" />
